@@ -1,7 +1,7 @@
 body{
     position: relative;
     margin: 0px;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(221, 221, 221);
 }
 .title{
     color: rgb(0, 136, 255);
@@ -28,7 +28,7 @@ body{
     font-size: 15px;
     padding-left: 20px;
     border-radius: 5px;
-    border: 1px solid rgb(65, 65, 65);
+    border: 1px solid rgb(173, 173, 173);
 }
 .password{
     position: absolute;
@@ -39,7 +39,7 @@ body{
     font-size: 15px;
     padding-left: 20px;
     border-radius: 5px;
-    border: 1px solid rgb(65, 65, 65);
+    border: 1px solid rgb(173, 173, 173);
 }
 .login{
     color: aliceblue;
@@ -58,27 +58,57 @@ a{
     text-decoration: none;
     position: absolute;
     top: 250px;
-    right: 170px;
+    right: 190px;
     border-bottom: 1px solid rgb(87, 87, 87);
     text-align: center;
-    width: 300px;
+    width: 270px;
     padding: 20px;
+    color: rgb(0, 98, 255);
 }
 .new{
+    font-family: Arial, Helvetica, sans-serif;
     color: aliceblue;
     background-color: rgb(0, 167, 42);
     position: absolute;
     top: 320px;
-    right: 250px;
+    right: 225px;
     width: 200px;
-    height: 40px;
-    font-size: 18px;
-    padding-left: 20px;
+    height: 10px;
+    font-size: 15px;
+    padding: 15px;
     border-radius: 5px;
     border: 0px;
 }
 .p{
     position: absolute;
     top: 380px;
-    left: 780px;
+    right: 15%;
+}
+.create{
+    position: absolute;
+    right: 23%;
+    top: 375px;
+    border: none;
+    color: black;
+}
+.background{
+    position: absolute;
+    top: 70px;
+    right: 180px;
+    z-index: -1;
+    border-radius: 10px;
+    background-color: rgb(0, 136, 255);
+    padding-left: 50px;
+    padding-top: 200px;
+    padding-bottom: 85px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    box-shadow: 2px 2px rgba(112, 112, 112, 0.178);
+}
+.error{
+    position: absolute;
+    top: 75px;
+    right: 250px;
+    transition :all 1;
+    color: red;
 }
